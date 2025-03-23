@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #e6e5e5 100%, #a09f9f 43%, #a09f9f 100%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  background: linear-gradient(90deg, #8B0000, #FF0000);
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 60px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #ffffff;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 1px;
+  min-height: calc(100vh - 150px);
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-principal-escrito-chamada {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold 457;
+  font-size: 30px;
+  padding-left: 45px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.conteudo-principal-servicos {
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.conteudo-principal-escrito-botao {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(235,2,2,1) 100%);
+  width: 348px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgb(255, 253, 253);
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: #ffffff;
+}
+
+.conteudo-principal-foguete {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 300px;
+  height: calc(100vh - 150px);
+  object-fit: contain;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(90deg, #8B0000, #FF0000);
+}
+
+.rodape-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape-principal-escrito {
+  display: flex;
+  gap: 200px;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 18px;
+  margin: 0;
+}
